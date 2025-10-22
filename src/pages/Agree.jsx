@@ -160,6 +160,7 @@ function Page() {
 			<Navigation step={3} />
 			<div className="content">
 				<h1>Finally, please read through the following thoroughly.</h1>
+				<div>Check each note to verify you've read it.</div>
 				<div className="form">
 					{formState.map((item, index) => (
 						<div key={`form-item-${params.type}-${index}`} className="form-item">
