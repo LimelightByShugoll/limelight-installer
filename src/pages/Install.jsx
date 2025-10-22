@@ -17,7 +17,7 @@ const fileNames = {
 
 function Page() {
 	const [system, setSystem] = useState("")
-	const [downloadStarted, setDownloadStarted] = useState(true)
+	const [downloadStarted, setDownloadStarted] = useState(false)
 	const [modalOpen, setModalOpen] = useState(false)
 	const [, setPath] = usePath()
 	const params = useParams("/:type/:code/install")
