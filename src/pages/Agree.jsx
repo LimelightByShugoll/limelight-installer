@@ -184,7 +184,7 @@ function Page() {
 				</div>
 				<a
 					className={`btn enter-btn${!formState.every(item => item.checked) ? " disabled" : ""}`}
-					href={!formState.every(item => item.checked) ? "#" : `https://limelight.adobeconnect.com/${params.code}`}
+					href={!formState.every(item => item.checked) ? "#" : `https://limelight.adobeconnect.com/${params.code}?proto=true`}
 					target="_blank"
 					rel="noopener noreferrer">
 					Enter Room
